@@ -46,11 +46,9 @@ ul li a {
 }
 .backim{
   background-image: url(../img/bordo.jpg);
-}
-.pad{
   transition: all 1s;
 }
-.pad:hover{
+.backim:hover{
   transform: skewX(20deg);
 }
 /* menu */
@@ -154,18 +152,14 @@ section div {
 }
 .dn{
   width: 260px;
+}
 
-}
-.caja{
-  margin-bottom: 100px;
-  margin: 10px;
-  padding: 10px; 
-}
 .caja:hover{
-  transform: scale(0.9);
+  transform: scale(1.1);
 }
 .caja{
   transition: all 1s;
+  padding: 10px;
 }
 
 a {
@@ -462,8 +456,13 @@ h1 {
     width: 300px;
     height: 62px;
   }
+  nav ul{
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
   .in {
-    justify-content: center;
+    justify-content: space-between;
   }
   header div {
     display: flex;
