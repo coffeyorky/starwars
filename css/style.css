@@ -199,6 +199,23 @@ nav ul {
 h1 {
   font-family: "Roboto", sans-serif;
 }
+.colorear{ 
+  color: white;
+}
+.colorear:hover{
+  animation: col 2s;
+}
+@keyframes col {
+  10%{
+    color: red;
+  }
+  50%{
+    color: rgb(255, 125, 125);
+  }
+  90%{
+    color: rgb(255, 244, 244);
+  }
+}
 .centrar {
   display: flex;
   flex-direction: column;
@@ -485,12 +502,11 @@ h1 {
     padding: 10px;
   }
   .dos {
-    width: 170px;
-    height: 170px;
+    width: 150px;
+    height: 150px;
   }
   .bordes {
-    width: 250px;
-    height: 130px;
+    width: 230px;
   }
   .reducir {
     display: none;
