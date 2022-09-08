@@ -115,7 +115,6 @@ h2 {
 }
 /* body */
 h3 {
-  color: red;
   background-color: black;
   text-align: center;
   font-size: 30px;
@@ -210,13 +209,13 @@ h1 {
     color: red;
   }
   40%{
-    color: rgb(255, 61, 61);
+    color: rgb(255, 72, 72);
   }
   60%{
-    color: rgb(255, 154, 154);
+    color: rgb(255, 144, 144);
   }
   90%{
-    color: rgb(255, 244, 244);
+    color: rgb(255, 199, 199);
   }
   100%{
     color: white;
