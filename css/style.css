@@ -588,9 +588,13 @@ h1 {
   .inicio {
     display: none;
   }
+  .logo{
+    display: none;
+  }
   .menuMobile {
     display: block;
-    height: 90px;
+    position: sticky;
+    height: 60px;
   }
   .logoMob {
     width: 244px;
