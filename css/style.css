@@ -311,7 +311,7 @@ h1 {
 .containerNovedades {
   margin: 20px;
   display: grid;
-  grid-template-rows: repeat(0.2fr, 7);
+  grid-template-rows: repeat(0.2fr, 10);
   grid-template-columns: repeat(0.2fr, 3);
   grid-template-areas:
     "ando ando not"
@@ -320,7 +320,13 @@ h1 {
     "ando4 ando4 not"
     "tbb tbb not"
     "tbb2 tbb3 not"
-    "tbb4 tbb4 not";
+    "tbb4 tbb4 not"
+    "toj toj tw"
+    "toj2 toj3 tw"
+    "toj4 toj4 tw"
+    "mnd mnd tw"
+    "mnd2 mnd3 tw"
+    "mnd4 mnd4 tw";
 }
 .noticias {
   grid-area: not;
@@ -373,6 +379,46 @@ h1 {
 .ifrm {
   grid-area: tbb4;
   margin: 20px;
+}
+.seccionTalesofjedi{
+  grid-area: toj;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.toj{
+  grid-area: toj2;
+  margin: 10px;
+  padding: 10px;
+}
+.tales{
+  grid-area: toj3;
+  margin: 10px;
+  padding: 10px;
+}
+.ofjedi{
+  grid-area: toj4;
+  margin: 20px;
+}
+.seccionThemandalorian{
+  grid-area: mnd;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.mando{
+  grid-area: mnd2;
+  margin: 10px;
+  padding: 10px;
+}
+.mnd{
+  grid-area: mnd3;
+  margin: 10px;
+  padding: 10px;
+}
+.mndifr{
+  grid-area: mnd4;
+}
+.twitt{
+  grid-area: tw;
 }
 /* novedades */
 /* peliculas */
@@ -542,6 +588,7 @@ h1 {
 .lis {
   grid-area: lid;
 }
+
 .col {
   color: white;
   background-color: rgb(31, 31, 34);
@@ -734,6 +781,8 @@ h1 {
   }
   .roth {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   /* videojuegos */
   /* lore */
