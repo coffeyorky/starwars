@@ -11,6 +11,7 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <script src="https://kit.fontawesome.com/8b0d68f728.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -33,7 +34,7 @@
 
       <section class="in">
         <nav>
-          <ul>
+          <ul class="menu">
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="../pages/series.html">Series</a></li>
             <li><a href="../pages/novedades.html">Novedades</a></li>
@@ -45,6 +46,79 @@
         </nav>
       </section>
     </header>
+    <div class="menuMobile">
+      <nav class="navbar navbar-dark bg-dark al fixed-top mon">
+      <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <div class="pnl">
+              <div class="spc">
+              <a href="https://twitter.com/starwars?s=20&t=CvfZ7ui7EJ2RwIv6xNd-4Q">
+              <i class="fa-brands fa-twitter" ></i>
+            </a>
+            </div>
+            <div class="spc">
+              <a href="https://www.youtube.com/c/StarWars/featured">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+            <div class="spc">
+              <a href="https://www.facebook.com/starwarsla/?brand_redir=169299103121699">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </div>
+            <div class="spc">
+              <a href="https://www.instagram.com/starwars/">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+            <div class="spc">
+              <a href="https://starwars.tumblr.com/">
+                <i class="fa-brands fa-tumblr"></i>
+              </a>
+            </div>
+            <div class="spc">
+              <a href="https://www.starwars.com/">
+                <i class="fa-brands fa-old-republic"></i>
+              </a>
+            </div>
+            </div>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body canvLin">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inicio</font></font></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../pages/series.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Series</font></font></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/novedades.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Novedades</font></font></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../pages/peliculas.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Peliculas</font></font></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../pages/novelas.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Novelas</font></font></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../pages/videojuegos.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Videojuegos</font></font></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../pages/lore.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lore</font></font></a>
+                </li>
+          </div>
+          </div>
+            <a class="navbar-brand" href=""><img class="logoMob" src="../img/star-wars-logo.jpg" alt=""></a>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+      </div>
+    </nav>
+    </div>
     <!--menu-->
     <nav>
       <ul>
@@ -75,8 +149,9 @@
       
       <img class="centro" src="../img/seriesmenu.jpg" alt="" />
     </div>
-    <section class="seccionCloneWars">
-      <h2>The Clone Wars</h2>
+    <section>
+      <div class="seccionCloneWars">
+    <h2>The Clone Wars</h2>
       <p>
         Star Wars: The Clone Wars (titulada Star Wars: La guerra de los clones
         en hispanoamérica) es una serie de televisión con animación 3D CGI,
@@ -91,6 +166,7 @@
         con 133 episodios. También existe una línea de cómic, que representa
         fragmentos de la historia en el período entre los episodios.
       </p>
+    <!-- probando -->
       <div class="mob">
         <a href="">Temporada 1</a>
         <a href="">Temporada 2</a>
@@ -100,10 +176,175 @@
         <a href="">Temporada 6</a>
         <a href="">Temporada 7</a>
       </div>
+    <!-- probando -->
       <div>
         <img class="clone" src="../img/clonewars.jpg" alt="" />
       </div>
+      </div>
+      
     </section>
+
+      <div class="lishdn">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header mrgno" id="panelsStayOpen-headingOne">
+              <button class="accordion-button collapsed lisblk accblk" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                Temporada 1
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body lin">
+                <p>La primera temporada de la serie de televisión animada Star Wars: The Clone Wars se estrenó el 3 de octubre de 2008, con la emisión de los episodios «Emboscada» e «Inicio del Malevolencia» en Cartoon Network.</p>
+                <p>Varios episodios de la primera temporada se volvieron a proyectar como The Clone Wars: Decoded. Estos presentaban cuadros emergentes que contenían trivia e información detrás de escena relacionada con cada episodio. Algunos fueron presentados como anotaciones in-universe por personajes en el episodio (como si se hubiera accedido desde un archivo histórico de sucesos durante las Guerras Clon), mientras que otros presentan referencias del mundo real o referencias a información de la que el personaje no tendría conocimiento. Por tanto, es dudoso que todas las anotaciones se consideren canónicas. Decoded comenzó el 1 de mayo de 2009 y continuó ejecutándose todos los viernes a las 9 p.m. ET/PT, la franja horaria habitual de la serie. Decoded continuó hasta el 2 de octubre de 2009, el estreno de la segunda temporada. En total, se emitieron diecisiete episodios Decoded: los primeros catorce episodios, más los episodios dieciséis, dieciocho y veintidós.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header mrgno" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed lisblk accblk" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                Temporada 2
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                <p>La segunda temporada de la serie de televisión animada Star Wars: The Clone Wars, comercializada bajo el nombre El Alzamiento de los Cazarrecompensas, comenzó a transmitirse el 2 de octubre de 2009 en Cartoon Network, empezando con los episodios «El Robo del Holocrón» y «Cargamento de Perdición» y terminando con las dos últimas partes de la «Trilogía de Boba Fett» el 30 de abril de 2010. Comenzó a emitirse en el Reino Unido el 24 de octubre en Sky Movies, y en España el 20 de noviembre en Antena.Neox. El 4 de abril, Cartoon Network inició la transmisión de la serie a toda Latinoamérica. Comenzó a transmitirse en Cartoon Network en el Reino Unido el 19 de abril y en Italia el 16 de abril.</p>
+                <h4>Episodios</h4>
+                <h4>El robo del holocrón</h4>
+                <p>
+                  Cad Bane se infiltra en el templo Jedi e intenta robar un antiguo holocrón Jedi. Ahsoka, Anakin y Obi-Wan tendrán que pararle los pies al peligroso cazarrecompensas.
+                </p>
+                <h4>Cargamento de perdición</h4>
+                <p>Anakin y Ahsoka interceptan la nave de Cad Bane con la esperanza de recuperar el holocrón robado, pero los Jedi subestiman la astucia del cazarrecompensas</p>
+                <h4>Los niños de la Fuerza</h4>
+                <p>
+                  Cad Bane recibe una nueva y nefasta misión: secuestrar niños sensibles a la Fuerza por toda la galaxia y llevarlos a Mustafar, donde serán entrenados como Sith.</p>
+                <h4>Espía en el senado</h4>
+                <p>
+                  Por petición del Consejo Jedi, Padmé investiga una conspiración separatista en el Senado.</p>
+              <h4>Aterrizaje en el ojo de la tormenta</h4>
+              <p>
+                Anakin, Ahsoka y Ki-Adi-Mundi lideran un destacamento encargado de destruir una fábrica de droides en Geonosis antes de que entre en funcionamiento.</p>
+              <h4>Fábrica de armas</h4>
+              <p>
+                Luminara y Anakin desvían la atención de unos supertanques enemigos mientras los padawans Barriss Offee y Ahsoka intentan destruir una fábrica separatista de droides.</p>
+              <h4>Legado de terror</h4>
+              <p>
+                ¡Luminara ha desaparecido! Obi-Wan y Ki-Adi-Mundi parten en su busca con una unidad de clones y acaban en una misteriosa guarida.</p>
+              <h4>Invasores de cerebros</h4>
+              <p>
+                Cuando unos gusanos cerebrales geonosianos toman el control de su nave de suministros, Ahsoka y Barriss deberán impedir la propagación de una plaga letal.</p>
+              <h4>La intriga de Grievous</h4>
+              <p>
+                El general Grievous secuestra y tortura al maestro Jedi Eeth Koth. Anakin, Obi-Wan y Adi Gallia traman un arriesgado plan de rescate.
+              </p>
+              <h4>El desertor</h4>
+              <p>
+                Mientras buscan al general Grievous en Saleucami, Rex y los Jedi dan con un clon desertor.</p>
+              <h4>Pérdida del sable láser</h4>
+              <p>
+                Cuando un ladrón le roba la espada láser a Ahsoka, esta recurre a un viejo Jedi para dar con su arma y recuperar el honor perdido.</p>
+              <h4>El complot mandaloriano</h4>
+              <p>
+                Mientras investiga los rumores sobre conspiración que rodean a la duquesa Satine de Mandalore, Obi-Wan averigua la verdad sobre un misterioso complot mandaloriano.</p>
+              <h4>Viaje de tentación</h4>
+              <p>
+                Los Jedi y su ejército de clones evitan los intentos de asesinato contra la duquesa Satine. Por su parte, Anakin se entera de que hubo algo entre Obi-Wan y la duquesa.</p>
+              <h4>La duquesa de Mandalore</h4>
+              <p>
+                En Coruscant, la duquesa Satine es acusada injustamente de la creación de un grupo rebelde de mandalorianos.</p>
+              <h4>Asesinos en el senado</h4>
+              <p>
+                Cuando el senador Onaconda Farr muere en extrañas circunstancias, Padmé se apresura a dar con la persona que le arrebató la vida a su \"tío\" favorito.</p>
+              <h4>El gato y el ratón</h4>
+              <p>
+                Obi-Wan y Anakin transportan tropas a Christophsis para enfrentarse a un bastión separatista. Allí se las verán con el peligroso almirante Trench.</p>
+              <h4>Cazarrecompensas</h4>
+              <p>
+                Anakin, Obi-Wan y Ahsoka forman una tensa alianza con cuatro cazarrecompensas para proteger a unos granjeros frente a Hondo Ohnaka y su banda de piratas.</p>
+              <h4>La bestia Zillo</h4>
+              <p>
+                La nueva superarma de la República despierta a la temible Bestia de Zillo. Ahora los Jedi tienen otro problema más del que preocuparse.</p>
+              <h4>La bestia Zillo ataca de nuevo</h4>
+              <p>
+                Las fuerzas de la República trasladan a la Bestia de Zillo de vuelta a Coruscant para estudiarla. Cuando escapa, los Jedi se enfrentarán a una difícil decisión moral.</p>
+              <h4>Trampa mortal</h4>
+              <p>
+                Un joven resentido lucha contra los caballeros Jedi que le dejaron huérfano y solo recurriendo a la ayuda de mortíferos cazarrecompensas.</p>
+              <h4>R2 rumbo a casa</h4>
+              <p>
+                Anakin y Mace caen en la peligrosa trampa que les tienden Boba Fett y sus sicarios en Vanqor. Ahora, R2-D2 tendrá que luchar por abrirse paso de vuelta a Coruscant.</p>
+              <h4>Rastreo letal</h4>
+              <p>
+                Tras recorrer los bajos fondos de Coruscant en busca de Boba Fett, Plo Koon y Ahsoka viajan al planeta Florrum para enfrentarse a él y sus aliados cazarrecompensas.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header mrgno" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed lisblk accblk" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                Temporada 3
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                <p>La tercera temporada de la serie de televisión animada Star Wars: The Clone Wars, comercializada con el nombre de Secretos Revelados, comenzó a transmitirse el 17 de septiembre de 2010 en Estados Unidos con un estreno de una hora y tuvo su final de una hora en EE.UU. el 1 de abril de 2011. El primer episodio se emitió en el Reino Unido el 23 de octubre. Consta de veintidós episodios, al igual que las dos primeras temporadas, y se emitió en Cartoon Network. Hay cambios en los diseños de personajes de la serie que tienen lugar durante la temporada en función del paso del tiempo a lo largo de la serie.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header mrgno" id="panelsStayOpen-headingFour">
+              <button class="accordion-button collapsed lisblk accblk" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                Temporada 4
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+              <div class="accordion-body">
+                <p>La cuarta temporada de la serie de televisión animada Star Wars: The Clone Wars, comercializada con el nombre de Líneas de Batalla, comenzó a transmitirse en Cartoon Network en Estados Unidos el 16 de septiembre de 2011 con un estreno de temporada de una hora y terminó con un final de temporada el 16 de marzo de 2012. Como todas las temporadas anteriores, la cuarta temporada constaba de veintidós episodios. La temporada se anunció por primera vez en abril de 2010.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header mrgno" id="panelsStayOpen-headingFive">
+              <button class="accordion-button collapsed lisblk accblk" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                Temporada 5
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+              <div class="accordion-body">
+                <p>La quinta temporada de la serie de televisión animada Star Wars: The Clone Wars debutó el 29 de septiembre de 2012. Se confirmó por primera vez que la temporada estaba en desarrollo en diciembre de 2011. A diferencia de las cuatro temporadas anteriores de la serie, que se emitían los viernes por la noche en horario de máxima audiencia, a las 9:00 pm ET, la quinta temporada se transmitió los sábados por la mañana a las 9:30 a.m. ET. Además, a comparación de temporadas anteriores, la quinta temporada consistió de solo veinte episodios. Fue la última temporada de la serie que se transmitiría en Cartoon Network.</p>
+                  <p>Antes de que comenzara a transmitirse, Hasbro sugirió que la quinta temporada sería la última temporada de The Clone Wars. El director supervisor Dave Filoni disputó esta afirmación en ese momento, y en Star Wars Insider 137, reiteró su intención de seguir haciendo la serie siempre y cuando la gente la siguiera viendo. También anunció que su personal había comenzado a trabajar en guiones y diseños para una sexta temporada. No obstante, la serie fue cancelada después de la quinta temporada, y los trece episodios restantes que habían estado en desarrollo se estrenaron como The Lost Missions el 7 de marzo de 2014.</p>
+              <p>En el decimocuarto episodio, «Eminencia», Cartoon Network censuró la escena en la que Savage Opress decapita a varios líderes del Sol Negro. Sin embargo, se confirmó que la escena completa sería visible en la edición Blu-Ray de la serie. Una escena de «Sombras de la Razón» también fue censurada, cuando Darth Maul decapita a Pre Vizsla, y su cabeza rueda hacia abajo en las escaleras de la sala del trono del Palacio Real de Sundari.</p>
+                </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header mrgno" id="panelsStayOpen-headingSix">
+              <button class="accordion-button collapsed lisblk accblk" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                Temporada 6
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+              <div class="accordion-body">
+                <p>The Lost Missions comprende la sexta temporada de la serie de televisión Star Wars: The Clone Wars. Originalmente, parte de una temporada completa de 22 episodios, trece episodios de The Lost Missions fueron completados tras la retracción de la serie de Cartoon Network en marzo de 2013. The Lost Missions debutó en la cadena de televisión alemana Super RTL, emitiéndose entre el 15 de febrero y el 8 de marzo de 2014. Tras el anuncio de un exclusivo acuerdo de licencia con Disney y el ABC Television Group, Netflix estrenó The Lost Missions el 7 de marzo de 2014, exclusivamente para audiencias en los Estados Unidas y Canadá.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header mrgno" id="panelsStayOpen-headingSeven">
+              <button class="accordion-button collapsed lisblk accblk" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+                Temporada 7
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
+              <div class="accordion-body">
+                <p>La séptima temporada de la serie de televisión animada Star Wars: The Clone Wars,[18] comercializada como La Temporada Final, es una versión de regreso de doce nuevos episodios que se emitieron en Disney+. El regreso fue anunciado por el director supervisor de la serie, Dave Filoni, el 19 de julio de 2018 en la San Diego Comic-Con, durante un panel que conmemoraba el décimo aniversario del show. Los episodios son una continuación de la serie después de que fuera cancelada en 2013 e incluye el Asedio de Mandalore. Las estrellas de la serie Matt Lanter, Ashley Eckstein, James Arnold Taylor, Dee Bradley Baker, Tom Kane, Sam Witwer, entre otros, regresaron para prestar sus voces a la serie.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     <section class="seccionThebadb">
       <h2>The Bad Batch</h2>
       <p>

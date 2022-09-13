@@ -11,6 +11,7 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <script src="https://kit.fontawesome.com/8b0d68f728.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,7 +32,7 @@
       </div>
       <section class="in">
         <nav>
-          <ul>
+          <ul class="menu">
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="../pages/series.html">Series</a></li>
             <li><a href="../pages/novedades.html">Novedades</a></li>
@@ -43,10 +44,83 @@
         </nav>
       </section>
     </header>
+    <div class="menuMobile">
+      <nav class="navbar navbar-dark bg-dark al fixed-top mon">
+      <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <div class="pnl">
+              <div class="spc">
+              <a href="https://twitter.com/starwars?s=20&t=CvfZ7ui7EJ2RwIv6xNd-4Q">
+              <i class="fa-brands fa-twitter" ></i>
+            </a>
+            </div>
+            <div class="spc">
+              <a href="https://www.youtube.com/c/StarWars/featured">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+            <div class="spc">
+              <a href="https://www.facebook.com/starwarsla/?brand_redir=169299103121699">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </div>
+            <div class="spc">
+              <a href="https://www.instagram.com/starwars/">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+            <div class="spc">
+              <a href="https://starwars.tumblr.com/">
+                <i class="fa-brands fa-tumblr"></i>
+              </a>
+            </div>
+            <div class="spc">
+              <a href="https://www.starwars.com/">
+                <i class="fa-brands fa-old-republic"></i>
+              </a>
+            </div>
+            </div>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body canvLin">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inicio</font></font></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../pages/series.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Series</font></font></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/novedades.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Novedades</font></font></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../pages/peliculas.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Peliculas</font></font></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../pages/novelas.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Novelas</font></font></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../pages/videojuegos.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Videojuegos</font></font></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../pages/lore.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lore</font></font></a>
+                </li>
+          </div>
+          </div>
+            <a class="navbar-brand" href=""><img class="logoMob" src="../img/star-wars-logo.jpg" alt=""></a>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+      </div>
+    </nav>
+    </div>
     <!--menu-->
-    <div class="container">
-        <div class="row">
-          <div class="col-12">
+    <div>
+        <div class="car">
+          <div class="novcar">
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="true">
         <div class="carousel-indicators liscrsl">
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -75,8 +149,6 @@
         </div>
       </div>
 
-
-      
     <div class="guiaDeLectura">
       <h2>Guia de lectura</h2>
     </div>
