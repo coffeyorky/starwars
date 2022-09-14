@@ -411,14 +411,16 @@ h1 {
 }
 .mnd {
   grid-area: mnd3;
-  margin: 10px;
-
+  margin: 20px;
 }
 .mndifr {
   grid-area: mnd4;
 }
 .twitt {
   grid-area: tw;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 /* novedades */
 /* peliculas */
@@ -455,7 +457,6 @@ h1 {
 /* novelas */
 /* videojuegos */
 .jds {
-  width: 98%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -758,6 +759,15 @@ h1 {
       "mnd4"
       "tw";
   }
+  .seccionBadBatch{
+    justify-content: center;
+  }
+  .seccionTalesofjedi{
+    justify-content: center;
+  }
+  .seccionThemandalorian{
+    justify-content: center;
+  }
   /* novedades */
   /* peliculas */
   .thePhantomMenace {
@@ -799,7 +809,20 @@ h1 {
   }
   /* videojuegos */
   /* lore */
+  .btn-cam {
+    font-size: 14px;
+  }
+  .btn-red {
+    font-size: 14px;
+  }
+  .btn-midas {
+    font-size: 14px;
+  }
+  .btn-white {
+    font-size: 14px;
+  }
   .gridLore {
+    justify-content: center;
     grid-template-rows: repeat(0.3fr, 14);
     grid-template-columns: 0.2fr;
     grid-template-areas:
@@ -818,6 +841,35 @@ h1 {
       "bdat6"
       "lid";
   }
-
+  .sbo {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .cb {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .tantiss {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .qui {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .drgn {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .clns {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+  }
   /* lore */
 }
