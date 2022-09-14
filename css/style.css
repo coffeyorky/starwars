@@ -837,6 +837,9 @@ h1 {
     grid-area: mnd4;
     margin: 5px;
   }
+  .btn-grn{
+    font-size: 14px;
+  }
   /* novedades */
   /* peliculas */
   .thePhantomMenace {
@@ -879,16 +882,29 @@ h1 {
     width: 100%;
   }
   .resumenVideojuegos {
-    margin: 10px;
+    margin: 5px;
+    padding: 15px;
   }
   .jdo {
-    width: 450px;
-    height: 253px;
+    width: 350px;
+    height: 197px;
   }
   .roth {
+    margin: 10px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .juegosPrincipales {
+   margin: 20px;
+  }
+  .margen {
+    margin: 20px;
+  }
+
+  .st {
+    width: 350px;
+    height: 197px;
   }
   /* videojuegos */
   /* lore */
