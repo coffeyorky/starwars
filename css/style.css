@@ -429,12 +429,29 @@ h1 {
   margin: 30px;
 }
 .amf {
-  margin: 30px;
+  margin: 40px;
   padding: 10px 40px 10px;
 }
 .thePhantomMenace {
   width: 900px;
   height: 506px;
+}
+.res{
+  margin: 20px 30px 3px;
+  padding: 10px 40px 0;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.phantomMenace{
+  margin: 0 30px 10px;
+  padding: 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 /* peliculas */
 /* novelas */
@@ -759,6 +776,9 @@ h1 {
       "mnd4"
       "tw";
   }
+  .noticias{
+    margin: 5px;
+  }
   .seccionBadBatch{
     justify-content: center;
   }
@@ -768,12 +788,75 @@ h1 {
   .seccionThemandalorian{
     justify-content: center;
   }
+  .b {
+    margin: 5px;
+    padding: 10px;
+  }
+  .c {
+    grid-area: ando3;
+    margin: 5px;
+    padding: 10px;
+  }
+  .d {
+    grid-area: ando4;
+    padding: 30px;
+
+  }
+  .tbbs {
+    margin: 5px;
+    padding: 10px;
+  }
+  .txtt {
+    margin: 5px;
+    padding: 10px;
+  }
+  .ifrm {
+    margin: 10px;
+  }
+ 
+  .toj {
+    margin: 5px;
+    padding: 10px;
+  }
+  .tales {
+    margin: 5px;
+    padding: 10px;
+  }
+  .ofjedi {
+    margin: 10px;
+  }
+  .mando {
+    margin: 5px;
+    padding: 10px;
+  }
+  .mnd {
+    margin: 5px;
+    padding: 10px;
+  }
+  .mndifr {
+    grid-area: mnd4;
+    margin: 5px;
+  }
   /* novedades */
   /* peliculas */
   .thePhantomMenace {
     width: 400px;
     height: 225px;
+    margin: 5px;
   }
+  .phantomMenace{
+    margin: 1px;
+  }
+  .menuPeliculas {
+    margin: 5px;
+  }
+  .amf {
+    margin: 5px;
+  }
+  .res{
+    margin: 1px;
+  }
+  
   /* peliculas */
   /* novelas */
   .novcar {
@@ -871,5 +954,6 @@ h1 {
     padding: 10px;
     font-size: 20px;
   }
+  
   /* lore */
 }
