@@ -19,9 +19,9 @@ body {
   display: block;
   position: sticky;
   top: 0;
-  border-bottom: white 1px solid;
+  z-index: 1;
+  border-bottom: white 1px solid; 
 }
-
 .in {
   background-color: rgb(31, 31, 34);
   display: flex;
@@ -44,7 +44,7 @@ ul li a {
 }
 
 .pad {
-  margin: 13px;
+  margin: 18px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -68,7 +68,7 @@ ul li a {
 /* body */
 h2 {
   color: red;
-  background-color: black;
+  background-image: url(../img/starWarsSection.jpg);
   font-family: "Roboto" sans-serif;
   margin: 13px;
 }
@@ -142,7 +142,7 @@ h2 {
 
 /* body */
 h3 {
-  background-color: black;
+  background-image: url(../img/starWarsSection.jpg);
   text-align: center;
   font-size: 30px;
   font-family: "Roboto" sans-serif;
@@ -559,7 +559,7 @@ h1 {
     font-size: 18px;
   }
   .seccionCloneWars {
-    margin: 10px;
+    margin: 10px !important;
     padding: 10px;
   }
   .listDes {
@@ -895,7 +895,7 @@ nav ul {
 /* novedades */
 /* peliculas */
 .menuPeliculas {
-  background-color: black;
+  background-image: url(../img/starWarsSection.jpg);
   margin: 30px;
 }
 
